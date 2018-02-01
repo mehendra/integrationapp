@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Invoices" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Invoices" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Invoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="DueDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="LineAmountTypes" type="xs:string" minOccurs="0" />
+              <xs:element name="SubTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalTax" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" type="xs:string" minOccurs="0" />
+              <xs:element name="UpdatedDateUTC" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrencyCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceID" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="AmountDue" type="xs:string" minOccurs="0" />
+              <xs:element name="AmountPaid" type="xs:string" minOccurs="0" />
+              <xs:element name="SentToContact" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrencyRate" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ContactID" type="xs:string" minOccurs="0" />
+                    <xs:element name="ContactStatus" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="UpdatedDateUTC" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsSupplier" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsCustomer" type="xs:string" minOccurs="0" />
+                    <xs:element name="Addresses" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Address" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="AddressType" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Phones" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Phone" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="PhoneType" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="LineItems" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LineItem" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Description" type="xs:string" minOccurs="0" />
+                          <xs:element name="LineItemID" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

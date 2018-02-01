@@ -1,0 +1,9 @@
+﻿{
+  "Settings": {
+    "ConsumerKey": "sdfsdfdfsdf",
+    "ConsumerSecret": "sdfdfsdf",
+    "SigningCertificate": "C:\\Mehendra\\XeroNet\\Keys\\public_privatekey.pfx",
+    "SigningCertificatePassword": "sdfsdfsdf",
+    "ApiBaseUrl": "https://sdsss/"
+  }
+}

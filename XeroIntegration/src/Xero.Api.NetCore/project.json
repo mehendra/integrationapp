@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0-*",
+
+    "dependencies": {
+        "Microsoft.Extensions.Configuration": "1.1.0",
+        "NETStandard.Library": "1.6.1",
+        "Xero.Api.NetCore.OAuth": "1.0.0-*"
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        }
+    },
+    "runtimes": {
+        "win7-x64": {},
+        "win10-x64": {}
+    }
+}

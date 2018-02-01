@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C95ACD9-D289-4A47-B048-F76F8802C9CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E309A5C-FB12-4DAF-9A63-91952BEBC204}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "XeroIntegration", "src\XeroIntegration\XeroIntegration.xproj", "{863A7DEF-EDCE-4AB5-8556-051A3A5FB025}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Initiator", "src\Initiator\Initiator.xproj", "{55D09599-DC65-4BA0-B7B9-1997FE8351E9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Xero.Api.NetCore", "src\Xero.Api.NetCore\Xero.Api.NetCore.xproj", "{E8493339-E9C3-4A58-8810-BD7413A41A5F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Xero.Api.NetCore.OAuth", "src\Xero.Api.NetCore.OAuth\Xero.Api.NetCore.OAuth.xproj", "{880F4D75-9A35-4CDD-A8D7-E5C6BDF5142C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ContactManager", "ContactManager\ContactManager.xproj", "{5D09BB67-C482-42BA-A0CB-A0158CC06C9B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Models", "src\Models\Models.xproj", "{4AC9CC96-02C9-4010-BC12-64A22D6DD6B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{863A7DEF-EDCE-4AB5-8556-051A3A5FB025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863A7DEF-EDCE-4AB5-8556-051A3A5FB025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863A7DEF-EDCE-4AB5-8556-051A3A5FB025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863A7DEF-EDCE-4AB5-8556-051A3A5FB025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D09599-DC65-4BA0-B7B9-1997FE8351E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D09599-DC65-4BA0-B7B9-1997FE8351E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D09599-DC65-4BA0-B7B9-1997FE8351E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D09599-DC65-4BA0-B7B9-1997FE8351E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8493339-E9C3-4A58-8810-BD7413A41A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8493339-E9C3-4A58-8810-BD7413A41A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8493339-E9C3-4A58-8810-BD7413A41A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8493339-E9C3-4A58-8810-BD7413A41A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880F4D75-9A35-4CDD-A8D7-E5C6BDF5142C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880F4D75-9A35-4CDD-A8D7-E5C6BDF5142C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880F4D75-9A35-4CDD-A8D7-E5C6BDF5142C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880F4D75-9A35-4CDD-A8D7-E5C6BDF5142C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D09BB67-C482-42BA-A0CB-A0158CC06C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D09BB67-C482-42BA-A0CB-A0158CC06C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D09BB67-C482-42BA-A0CB-A0158CC06C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D09BB67-C482-42BA-A0CB-A0158CC06C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC9CC96-02C9-4010-BC12-64A22D6DD6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC9CC96-02C9-4010-BC12-64A22D6DD6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC9CC96-02C9-4010-BC12-64A22D6DD6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC9CC96-02C9-4010-BC12-64A22D6DD6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{863A7DEF-EDCE-4AB5-8556-051A3A5FB025} = {8C95ACD9-D289-4A47-B048-F76F8802C9CF}
+		{55D09599-DC65-4BA0-B7B9-1997FE8351E9} = {8C95ACD9-D289-4A47-B048-F76F8802C9CF}
+		{E8493339-E9C3-4A58-8810-BD7413A41A5F} = {8C95ACD9-D289-4A47-B048-F76F8802C9CF}
+		{880F4D75-9A35-4CDD-A8D7-E5C6BDF5142C} = {8C95ACD9-D289-4A47-B048-F76F8802C9CF}
+		{5D09BB67-C482-42BA-A0CB-A0158CC06C9B} = {8C95ACD9-D289-4A47-B048-F76F8802C9CF}
+		{4AC9CC96-02C9-4010-BC12-64A22D6DD6B7} = {8C95ACD9-D289-4A47-B048-F76F8802C9CF}
+	EndGlobalSection
+EndGlobal
