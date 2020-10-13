@@ -27,7 +27,7 @@ namespace RandomLunchDateCreator
                     .ContinueWith(a => teamGroups = a.Result)
             };
 
-
+//test
             taskFactory.ContinueWhenAll(allRunningTasks.ToArray(), delegate
             {
                 var currentTeam = 0;
